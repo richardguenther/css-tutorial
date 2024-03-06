@@ -1,0 +1,15 @@
+{
+  "name": "laura.tinymedia.de",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf _site && eleventy",
+    "dev": "rm -rf _site && eleventy --serve"
+  },
+  "author": "richard",
+  "devDependencies": {
+    "@11ty/eleventy": "canary"
+  }
+}
