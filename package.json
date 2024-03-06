@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf _site && eleventy",
-    "dev": "rm -rf _site && eleventy --serve"
+    "dev": "rm -rf _site && eleventy --serve --incremental"
   },
   "author": "richard",
   "devDependencies": {
