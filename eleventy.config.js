@@ -1,6 +1,6 @@
 export default async function (eleventyConfig) {
 	// passthrough behavior
-	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+	eleventyConfig.setServerPassthroughCopyBehavior("copy");
 
 	// Copy `11ty_css/` to `_site/css`
 	eleventyConfig.addPassthroughCopy({ "11ty_css": "/css" });

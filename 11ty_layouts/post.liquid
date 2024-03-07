@@ -1,0 +1,10 @@
+---
+layout: baselayout.liquid
+title: Post Template
+---
+
+<article>
+  <h1>{{ title }}</h1>
+  <p>Published on {{ page.date | date : "%Y-%m-%d" }}</p>
+  {{ content }}
+</article>

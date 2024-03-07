@@ -11,5 +11,6 @@
   "author": "richard",
   "devDependencies": {
     "@11ty/eleventy": "canary"
-  }
+  },
+  "dependencies": {}
 }
