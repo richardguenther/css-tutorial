@@ -1,7 +1,7 @@
 @layer base, layout, new;
 
-@import url('/css/base.css') layer(base);
+@import url("/css/base.css") layer(base);
 
-@import url('/css/layout.css') layer(layout);
+@import url("/css/layout.css") layer(layout);
 
-@import url('/css/new.css') layer(new);
+@import url("/css/new.css") layer(new);

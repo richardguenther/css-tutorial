@@ -1,16 +1,16 @@
 {
-  "name": "laura.tinymedia.de",
-  "version": "0.0.1",
-  "type": "module",
-  "description": "Test",
-  "main": "index.js",
-  "scripts": {
-    "build": "rm -rf _site && eleventy",
-    "dev": "rm -rf _site && eleventy --serve --incremental"
-  },
-  "author": "richard",
-  "devDependencies": {
-    "@11ty/eleventy": "canary"
-  },
-  "dependencies": {}
+	"name": "laura.tinymedia.de",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "Test",
+	"main": "index.js",
+	"scripts": {
+		"build": "rm -rf _site && bunx eleventy",
+		"dev": "rm -rf _site && bunx eleventy --serve --incremental"
+	},
+	"author": "richard",
+	"devDependencies": {
+		"@11ty/eleventy": "^v3.0.0-alpha.5"
+	},
+	"dependencies": {}
 }
